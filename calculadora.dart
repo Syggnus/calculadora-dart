@@ -14,7 +14,6 @@ calculadora() {
     case "1":
       print("Escolha os números para realizar a Adição");
       String? num_add1 = stdin.readLineSync();
-      print(num_add1);
       String? num_add2 = stdin.readLineSync();
 
       if (num_add1 != null && num_add2 != null) {
